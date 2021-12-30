@@ -1,0 +1,23 @@
+{
+  "name": "bingo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "nodemon": "^2.0.15",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "engines": {
+   "node": "14.8"
+  }
+}
